@@ -46,18 +46,18 @@ static void Decision(int convertedUserInput)
 {
     switch (convertedUserInput)
     {
-        case 1:
-            Calculator.Calculator.Addition();
-            break;
-        case 2:
-            Calculator.Calculator.Subtraction();
-            break;
-        case 3:
-            Calculator.Calculator.Multiplication();
-            break;
-        case 4:
-            Calculator.Calculator.Division();
-            break;
+        //case 1:
+        //    Calculator.Calculator.Addition(5,4);
+        //    break;
+        //case 2:
+        //    Calculator.Calculator.Subtraction();
+        //    break;
+        //case 3:
+        //    Calculator.Calculator.Multiplication();
+        //    break;
+        //case 4:
+        //    Calculator.Calculator.Division();
+        //    break;
         case 5:
             break;
         default:

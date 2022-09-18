@@ -7,24 +7,24 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Calculator
+    public class Calculator
     {
 
-        public static void Addition()
+        public static (decimal, decimal, string, decimal) Addition(decimal firstNum, decimal secondNum)
         {
-            Console.WriteLine("5+5");
+            return (firstNum, secondNum, "+", firstNum + secondNum);
         }
-        public static void Subtraction()
+        public static (decimal, decimal, string, decimal) Subtraction(decimal firstNum, decimal secondNum)
         {
-            Console.WriteLine("8-2");
+            return (firstNum, secondNum, "-", firstNum - secondNum);
         }
-        public static void Multiplication()
+        public static (decimal, decimal, string, decimal) Multiplication(decimal firstNum, decimal secondNum)
         {
-            Console.WriteLine("9*9");
+            return (firstNum, secondNum, "*", firstNum * secondNum);
         }
-        public static void Division()
+        public static (decimal, decimal, string, decimal) Division(decimal firstNum, decimal secondNum)
         {
-            Console.WriteLine("100/2");
+            return (firstNum, secondNum, "/", firstNum / secondNum);
         }
     }
 }
