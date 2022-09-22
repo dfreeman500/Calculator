@@ -1,0 +1,4 @@
+﻿SELECT * FROM Calculations
+WHERE id > 5
+ORDER BY result
+OFFSET 0 ROWS FETCH FIRST 8 ROWS ONLY;
